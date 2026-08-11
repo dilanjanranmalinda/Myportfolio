@@ -10,7 +10,7 @@ export const personalInfo = {
   github: "https://github.com/dilanjanranmalinda",
   bio: "Passionate Full-Stack Software Engineer with hands-on experience across the full development lifecycle. I specialize in building modern web applications using React, Node.js, and cloud technologies. Currently working at DigitalX Labs, I bring strong problem-solving skills and a commitment to delivering innovative digital solutions.",
   avatar: myImage,
-  resumeUrl: "/Dilanjan-Ranmalinda.pdf"
+  resumeUrl: "/Dilanjan_Ranmalinda_CV.pdf"
 }
 
 export const experience = [
@@ -126,7 +126,7 @@ export const projects: Project[] = [
     tech: ["React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"],
     live: "https://adstudio.cloud/",
     category: "web",
-    preview: "https://img.icons8.com/fluency/96/advertising.png"
+    preview: "https://img.icons8.com/fluency/96/megaphone.png"
   },
   {
     id: 5,
@@ -135,7 +135,7 @@ export const projects: Project[] = [
     tech: ["React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"],
     live: "https://oyexport.com/",
     category: "web",
-    preview: "https://img.icons8.com/fluency/96/advertising.png"
+    preview: "https://img.icons8.com/fluency/96/factory.png"
   },
   {
     id: 6,
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     tech: ["TypeScript", "React Native", "Node.js"],
     github: "https://github.com/dilanjanranmalinda/meemure-app",
     category: "mobile",
-    preview: "https://img.icons8.com/fluency/96/travel.png"
+    preview: "https://img.icons8.com/fluency/96/palm-tree.png"
   },
   {
     id: 8,
@@ -161,7 +161,7 @@ export const projects: Project[] = [
     description: "A collection of reusable React widgets and components including charts, data tables, modals, forms, and interactive UI elements.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Storybook"],
     category: "widget",
-    preview: "https://img.icons8.com/fluency/96/widget.png"
+    preview: "https://img.icons8.com/fluency/96/puzzle.png"
   },
   {
     id: 9,
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     tech: ["Java", "JavaFX", "MySQL"],
     github: "https://github.com/dilanjanranmalinda/StudentManagementApp",
     category: "mobile",
-    preview: "https://img.icons8.com/fluency/96/student.png"
+    preview: "https://img.icons8.com/fluency/96/student-male.png"
   },
   {
     id: 10,
@@ -179,7 +179,7 @@ export const projects: Project[] = [
     tech: ["Node.js", "Express", "MongoDB", "JWT"],
     github: "https://github.com/dilanjanranmalinda/employee-api",
     category: "fullstack",
-    preview: "https://img.icons8.com/fluency/96/employee.png"
+    preview: "https://img.icons8.com/fluency/96/businessman.png"
   },
   {
     id: 11,
@@ -188,6 +188,6 @@ export const projects: Project[] = [
     tech: ["JavaScript", "Node.js", "Socket.io", "MongoDB"],
     github: "https://github.com/dilanjanranmalinda/Vote",
     category: "fullstack",
-    preview: "https://img.icons8.com/fluency/96/vote.png"
+    preview: "https://img.icons8.com/fluency/96/ballot.png"
   }
 ]
