@@ -78,7 +78,7 @@ function ProjectCard({ project }: { project: Project }) {
     <div className="group bg-gray-800/50 rounded-xl border border-gray-700 hover:border-emerald-500/40 transition-all duration-500 overflow-hidden hover:shadow-[0_0_40px_rgba(16,185,129,0.1)] hover:-translate-y-1">
       <div className="h-44 bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center relative overflow-hidden">
         {project.preview ? (
-          <img src={project.preview} alt={project.title} className="w-20 h-20 object-contain opacity-40 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
+          <img src={project.preview} alt={project.title} loading="lazy" decoding="async" className="w-20 h-20 object-contain opacity-40 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
         ) : (
           <CategoryIcon className="w-12 h-12 text-gray-600 group-hover:text-emerald-400 transition-colors" />
         )}

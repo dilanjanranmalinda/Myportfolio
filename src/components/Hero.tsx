@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="mb-8 inline-block group" id="hero-glare" style={{ transition: "transform 0.2s ease-out" }}>
           <div className="relative">
             <div className="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-emerald-400 shadow-[0_0_40px_rgba(16,185,129,0.3)] mx-auto group-hover:shadow-[0_0_60px_rgba(16,185,129,0.5)] transition-all duration-500">
-              <img src={personalInfo.avatar} alt={personalInfo.name} className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" />
+              <img src={personalInfo.avatar} alt={personalInfo.name} decoding="async" className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" />
             </div>
             <div className="absolute -bottom-1 -right-1 w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center border-2 border-gray-900">
               <span className="w-3 h-3 bg-white rounded-full animate-ping absolute" />
